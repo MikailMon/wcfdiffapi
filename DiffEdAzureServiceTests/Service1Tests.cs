@@ -16,10 +16,10 @@ namespace WCFServiceWebRole1.Tests
     public class Service1Tests
     {
         //local endpoint
-        private readonly string baseUrl = "http://localhost:56755/Service.svc/";
+        //private readonly string baseUrl = "http://localhost:56755/Service.svc/";
 
         //cloud endpoint
-        //private readonly string baseUrl = "http://azureservice07.cloudapp.net/Service1.svc/";
+        private readonly string baseUrl = "http://diffed.cloudapp.net/Service.svc/";
 
         private HttpWebResponse myWebClient(string urlendpoint, string dataContent, string method)
         {
